@@ -43,6 +43,8 @@ SWEP.Primary.ClipSize = 20 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 40
 SWEP.ReducedClipSize = 10
 
+SWEP.PhysBulletMuzzleVelocity = 855
+
 SWEP.Recoil = 1
 SWEP.RecoilSide = 0.8
 SWEP.VisualRecoilMult = 1

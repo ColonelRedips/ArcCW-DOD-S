@@ -43,6 +43,8 @@ SWEP.Primary.ClipSize = 32 -- DefaultClip is automatically set.
 SWEP.ExtendedClipSize = 48
 SWEP.ReducedClipSize = 20
 
+SWEP.PhysBulletMuzzleVelocity = 380
+
 SWEP.Recoil = 0.45
 SWEP.RecoilSide = 0.3
 SWEP.RecoilRise = 1
@@ -159,8 +161,8 @@ SWEP.Attachments = {
             wang = Angle(170, -180, 0),
         },
         InstalledEles = {"noch"},
-        CorrectivePos = Vector(-1.91, -15, -15.35),
-        CorrectiveAng = Angle(0, 0, 100)
+        CorrectivePos = Vector(0, 0, 0),
+        CorrectiveAng = Angle(0, 0, 0)
     },
     {
         PrintName = "Muzzle",
